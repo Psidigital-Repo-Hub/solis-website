@@ -1,0 +1,360 @@
+{
+  "_readme": [
+    "Photography manifest. Every entry maps a local filename to an Unsplash",
+    "photo id, the crop to request, and the alt text describing what the",
+    "photo actually shows.",
+    "",
+    "Each id below was reviewed visually before being assigned \u2014 alt text is",
+    "written from the real image, not guessed from the slot name.",
+    "",
+    "Run `npm run photos` to (re-)download. Images are served from",
+    "/public/images, so the site has no runtime dependency on Unsplash.",
+    "Photos are used under the Unsplash License."
+  ],
+  "scenes": [
+    {
+      "file": "hero-family",
+      "id": "photo-1609220136736-443140cffec6",
+      "w": 1280,
+      "h": 980,
+      "crop": "faces,center",
+      "alt": "A father outdoors holding his two young children, all smiling"
+    },
+    {
+      "file": "care-team",
+      "id": "photo-1585842378054-ee2e52f94ba2",
+      "w": 1100,
+      "h": 900,
+      "crop": "faces,center",
+      "alt": "A clinician wearing a stethoscope in conversation with a colleague"
+    },
+    {
+      "file": "partnership",
+      "id": "photo-1628348068343-c6a848d2b6dd",
+      "w": 1100,
+      "h": 900,
+      "crop": "center",
+      "alt": "Two colleagues reviewing printed charts and figures across a meeting table"
+    },
+    {
+      "file": "patients-walking",
+      "id": "photo-1516841273335-e39b37888115",
+      "w": 1200,
+      "h": 900,
+      "crop": "center",
+      "alt": "A group of clinicians in scrubs and white coats walking together along a hospital corridor"
+    },
+    {
+      "file": "consultation",
+      "id": "photo-1612277795421-9bc7706a4a34",
+      "w": 900,
+      "h": 700,
+      "crop": "faces,center",
+      "alt": "A clinician administering a vaccination to a seated patient"
+    },
+    {
+      "file": "technology",
+      "id": "photo-1576091160550-2173dba999ef",
+      "w": 900,
+      "h": 700,
+      "crop": "center",
+      "alt": "Hands typing on a laptop beside a stethoscope on a desk"
+    },
+    {
+      "file": "cta-reception",
+      "id": "photo-1524758631624-e2822e304c36",
+      "w": 1200,
+      "h": 620,
+      "crop": "center",
+      "alt": "A bright, modern waiting area with soft seating and natural light"
+    },
+    {
+      "file": "cta-support",
+      "id": "photo-1581056771107-24ca5f033842",
+      "w": 1200,
+      "h": 620,
+      "crop": "faces,center",
+      "alt": "A doctor sitting at a patient's bedside, talking with them"
+    },
+    {
+      "file": "about-atrium",
+      "id": "photo-1497366216548-37526070297c",
+      "w": 1280,
+      "h": 860,
+      "crop": "center",
+      "alt": "A long, light-filled corridor in a modern building"
+    },
+    {
+      "file": "about-team",
+      "id": "photo-1504813184591-01572f98c85f",
+      "w": 1000,
+      "h": 760,
+      "crop": "center",
+      "alt": "A clinical team in surgical gowns conferring together"
+    },
+    {
+      "file": "facility-emergency",
+      "id": "photo-1516574187841-cb9cc2ca948b",
+      "w": 900,
+      "h": 640,
+      "crop": "center",
+      "alt": "An intravenous drip stand beside a hospital bed"
+    },
+    {
+      "file": "facility-imaging",
+      "id": "photo-1530497610245-94d3c16cda28",
+      "w": 900,
+      "h": 640,
+      "crop": "center",
+      "alt": "An X-ray image of a forearm displayed on a lightbox"
+    },
+    {
+      "file": "facility-theatre",
+      "id": "photo-1551076805-e1869033e561",
+      "w": 900,
+      "h": 640,
+      "crop": "center",
+      "alt": "An empty operating theatre prepared for surgery"
+    },
+    {
+      "file": "facility-maternity",
+      "id": "photo-1519689680058-324335c77eba",
+      "w": 900,
+      "h": 640,
+      "crop": "faces,center",
+      "alt": "A newborn baby resting, arms outstretched"
+    },
+    {
+      "file": "facility-rehab",
+      "id": "photo-1571019613454-1cb2f99b2d8b",
+      "w": 900,
+      "h": 640,
+      "crop": "center",
+      "alt": "A person exercising on a mat during a supervised session"
+    },
+    {
+      "file": "facility-pharmacy",
+      "id": "photo-1585435557343-3b092031a831",
+      "w": 900,
+      "h": 640,
+      "crop": "center",
+      "alt": "Medication packets, capsules and a thermometer arranged on a flat surface"
+    },
+    {
+      "file": "service-cardiology",
+      "id": "photo-1530026405186-ed1f139313f8",
+      "w": 1000,
+      "h": 700,
+      "crop": "center",
+      "alt": "An anatomical model of a human heart held in gloved hands"
+    },
+    {
+      "file": "service-pediatrics",
+      "id": "photo-1503454537195-1dcabb73ffb9",
+      "w": 1000,
+      "h": 700,
+      "crop": "faces,center",
+      "alt": "A young child laughing, face painted, outdoors"
+    },
+    {
+      "file": "service-orthopedics",
+      "id": "photo-1519824145371-296894a0daa9",
+      "w": 1000,
+      "h": 700,
+      "crop": "center",
+      "alt": "A therapist's hands working on a patient's shoulder during treatment"
+    },
+    {
+      "file": "service-neurology",
+      "id": "photo-1559757148-5c350d0d3c56",
+      "w": 1000,
+      "h": 700,
+      "crop": "center",
+      "alt": "A cross-sectional anatomical model of the human brain"
+    },
+    {
+      "file": "service-general-surgery",
+      "id": "photo-1571772996211-2f02c9727629",
+      "w": 1000,
+      "h": 700,
+      "crop": "center",
+      "alt": "A surgical team operating under theatre lights"
+    },
+    {
+      "file": "service-emergency-care",
+      "id": "photo-1538108149393-fbbd81895907",
+      "w": 1000,
+      "h": 700,
+      "crop": "center",
+      "alt": "A hospital ward with made-up beds and drawn curtains"
+    },
+    {
+      "file": "service-maternity",
+      "id": "photo-1476703993599-0035a21b17a9",
+      "w": 1000,
+      "h": 700,
+      "crop": "faces,center",
+      "alt": "A mother sitting on a sofa with her two young children"
+    },
+    {
+      "file": "service-diagnostic-imaging",
+      "id": "photo-1666214280557-f1b5022eb634",
+      "w": 1000,
+      "h": 700,
+      "crop": "center",
+      "alt": "Two clinicians reviewing a brain scan together on diagnostic monitors"
+    },
+    {
+      "file": "service-laboratory-services",
+      "id": "photo-1579154204601-01588f351e67",
+      "w": 1000,
+      "h": 700,
+      "crop": "center",
+      "alt": "A pathology laboratory lined with automated analysers"
+    },
+    {
+      "file": "article-screening",
+      "id": "photo-1631815589968-fdb09a223b1e",
+      "w": 1200,
+      "h": 750,
+      "crop": "faces,center",
+      "alt": "A clinician measuring a patient's blood pressure with a cuff and stethoscope"
+    },
+    {
+      "file": "article-heart",
+      "id": "photo-1526256262350-7da7584cf5eb",
+      "w": 1200,
+      "h": 750,
+      "crop": "center",
+      "alt": "A stethoscope and blood pressure cuff resting on a folded cloth"
+    },
+    {
+      "file": "article-sleep",
+      "id": "photo-1512678080530-7760d81faba6",
+      "w": 1200,
+      "h": 750,
+      "crop": "center",
+      "alt": "A quiet single hospital room with a made bed and a chair by the window"
+    },
+    {
+      "file": "article-nutrition",
+      "id": "photo-1512621776951-a57141f2eefd",
+      "w": 1200,
+      "h": 750,
+      "crop": "center",
+      "alt": "A bowl of mixed vegetables, chickpeas and avocado seen from above"
+    },
+    {
+      "file": "article-recovery",
+      "id": "photo-1571019613454-1cb2f99b2d8b",
+      "w": 1200,
+      "h": 750,
+      "crop": "center",
+      "alt": "A person exercising on a mat during a supervised rehabilitation session"
+    },
+    {
+      "file": "article-imaging",
+      "id": "photo-1583911860205-72f8ac8ddcbe",
+      "w": 1200,
+      "h": 750,
+      "crop": "center",
+      "alt": "A laboratory technician working at a bench of specialist equipment"
+    },
+    {
+      "file": "map-placeholder",
+      "id": "photo-1519494026892-80bbd2d6fd0d",
+      "w": 1200,
+      "h": 760,
+      "crop": "center",
+      "alt": "The main reception desk of a hospital building"
+    }
+  ],
+  "portraits": [
+    {
+      "file": "doctor-amara-osei",
+      "id": "photo-1594824476967-48c8b964273f",
+      "alt": "Portrait of Dr Amara Osei"
+    },
+    {
+      "file": "doctor-daniel-reyes",
+      "id": "photo-1612349317150-e413f6a5b16d",
+      "alt": "Portrait of Dr Daniel Reyes"
+    },
+    {
+      "file": "doctor-hannah-lindqvist",
+      "id": "photo-1559839734-2b71ea197ec2",
+      "alt": "Portrait of Dr Hannah Lindqvist"
+    },
+    {
+      "file": "doctor-marcus-bell",
+      "id": "photo-1537368910025-700350fe46c7",
+      "alt": "Portrait of Mr Marcus Bell"
+    },
+    {
+      "file": "doctor-priya-raman",
+      "id": "photo-1531123897727-8f129e1688ce",
+      "alt": "Portrait of Dr Priya Raman"
+    },
+    {
+      "file": "doctor-tomas-varga",
+      "id": "photo-1622253692010-333f2da6031d",
+      "alt": "Portrait of Dr Tomas Varga"
+    },
+    {
+      "file": "doctor-nora-halim",
+      "id": "photo-1527613426441-4da17471b66d",
+      "alt": "Portrait of Dr Nora Halim"
+    },
+    {
+      "file": "doctor-elias-mensah",
+      "id": "photo-1666887360742-974c8fce8e6b",
+      "alt": "Portrait of Mr Elias Mensah"
+    }
+  ],
+  "avatars": [
+    {
+      "file": "avatar-patient-1",
+      "id": "photo-1494790108377-be9c29b29330"
+    },
+    {
+      "file": "avatar-patient-2",
+      "id": "photo-1507003211169-0a1dd7228f2d"
+    },
+    {
+      "file": "avatar-patient-3",
+      "id": "photo-1544005313-94ddf0286df2"
+    },
+    {
+      "file": "avatar-patient-4",
+      "id": "photo-1607990281513-2c110a25bd8c"
+    },
+    {
+      "file": "avatar-patient-5",
+      "id": "photo-1438761681033-6461ffad8d80"
+    },
+    {
+      "file": "avatar-patient-6",
+      "id": "photo-1568602471122-7832951cc4c5"
+    },
+    {
+      "file": "avatar-patient-7",
+      "id": "photo-1517841905240-472988babdf9"
+    },
+    {
+      "file": "avatar-patient-8",
+      "id": "photo-1552058544-f2b08422138a"
+    },
+    {
+      "file": "avatar-author-1",
+      "id": "photo-1580489944761-15a19d654956"
+    },
+    {
+      "file": "avatar-author-2",
+      "id": "photo-1487412720507-e7ab37603c6f"
+    },
+    {
+      "file": "avatar-leader-1",
+      "id": "photo-1573496359142-b8d87734a5a2"
+    }
+  ]
+}
